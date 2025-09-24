@@ -1,0 +1,41 @@
+{
+  "Invisibility": {
+    "click" : {
+      "locator" : "j_idt87:",
+      "locatorType" : "id",
+      "parent" : "Invisibility ",
+	  "text" : "Click"
+    },
+    "iAmAboutToHide" : {
+      "locator" : "j_idt87:j_idt93",
+      "locatorType" : "id",
+      "parent" : "Invisibility ",
+	  "text" : "I am about to hide"
+    },
+	"text" : "Wait for Invisibility (1 - 10 Sec)",
+	"locator" : "//*[contains(text(), 'Wait for Invisibility')]",
+	"locatorType" : "xpath"
+  },
+  "Clickability" : {
+	"firstButton" :{
+		"locator" : "j_idt87:j_i",
+		"locatorType" : "id",
+		"parent" : "Clickability",
+		"text" : "Click First Button"
+	},
+	"secondButton" :{
+		"locator" : "j_idt87:j_idt96",
+		"locatorType" : "id",
+		"parent" : "Clickability",
+		"text" : "Click Second"
+	},
+	},
+	"Visibility":{
+		"click" : {
+			"locator" : "j_idt87:j_i",
+			"locatorType" : "id",
+			"parent" : "Visibility",
+			"text" : "Click"
+		}
+	}
+}
